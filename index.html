@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaimaa's Special Messages</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="password-section">
+        <h1>Welcome, My Lady</h1>
+        <p>Enter the secret password to access your special writings</p>
+        <input type="password" id="password-input" placeholder="Enter password">
+        <button onclick="checkPassword()">Unlock</button>
+        <p id="error-message"></p>
+    </div>
+
+    <div id="content-section" style="display: none;">
+        <header>
+            <h1>For My Beloved Chaimaa</h1>
+            <p>Created with love by Alae</p>
+        </header>
+        <p class="message">I'm happy and Alhamdulillah I met you, my lady.</p>
+        
+        <!-- Tabs for different writings -->
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab('writing1')">Writing 1</button>
+            <button class="tab-button" onclick="openTab('writing2')">Writing 2</button>
+            <button class="tab-button" onclick="openTab('writing3')">Writing 3</button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="writing1">
+            <h2>Letter to Chaimaa</h2>
+            <p>Salam Chaimae,<br>
+            I hope this message finds you in the best of health and Iman. Ça fait un moment qu'on s'est parlé, et je sais que tu m’as peut-être oublié, mais tu es restée dans mes pensées. صدقيني Chaimae,<br><br>
+            
+            من بعد أول مرة تواصلت معاك فيها، والله، لم أتكلم مع أي أحد آخر.<br>
+            
+            Tu es la seule personne que j'ai approchée, parce que j’ai senti quelque chose de spécial entre nous.<br>
+            
+            Je suis un homme sérieux, et je comprends bien l’importance de respecter les limites, surtout celles de notre belle religion. I want you to know that I’m here with pure intentions, et je veux que tout soit halal entre nous. Tu es une femme de foi, et c’est une qualité que j’admire profondément chez toi.<br><br>
+            
+            ما بغيتش نمشي بأي طريقة غير اللي ترضيك ويرضي الله.<br>
+            
+            I’m an educated man, ولدي طموحات كثيرة، لكن honestly, ce que je souhaite le plus maintenant, c’est de mieux te connaître, mais toujours dans le respect et la dignité. I’m not looking for anything temporary; I want something meaningful, something that pleases Allah.<br><br>
+            
+            Maybe my first message كان غريب شوية، لكن بصراحة، it came from a place of sincerity. I just couldn’t let the opportunity pass without trying to connect with you.<br><br>
+            
+            وأتمنى ما تاخديش هذا بطريقة غلط.<br>
+            
+            Tu es une personne rare, et c’est pour ça que je suis prêt à faire les efforts qu’il faut pour te prouver mes intentions.<br>
+            
+            I’m hoping you’ll give me a chance to talk, to get to know each other mieux, but always in a way that respects your values and your comfort. If you’re open to it, I would love to have this conversation avec toi.<br><br>
+            
+            Qu’Allah te protège et te guide toujours vers ce qui est bon pour toi.<br>
+            
+            Avec tout mon respect, Alae.
+            </p>
+        </div>
+        <div class="tab-content" id="writing2" style="display: none;">
+            <h2>Go Check</h2>
+            <p>Soon</p>
+        </div>
+        <div class="tab-content" id="writing3" style="display: none;">
+            <h2>A Message</h2>
+            <p>Alhamdolilah my lady, I am very thankful to Allah, that you are mine and I am yours. I really like you as a human and as a woman. I love you and like you to the extreme, a lot, from your man my lady, Alae. All yours completely and always.</p>
+        </div>
+    </div>
+</body>
+</html>
